@@ -15,6 +15,7 @@
   --cl-btn-portfolio: #e7e9fc;
   --icons-cl: #afb1b8;
   --icons-hover-cl: #404bbf;
+  --socials-footer-cl: #ffffff;
 }
 .visually-hidden {
   position: absolute;
@@ -416,7 +417,15 @@ img {
 .footer-div {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  margin-right: 120px;  
+}
+
+.footer-socials-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--socials-footer-cl);
 }
 
 .header-logo-footer {
