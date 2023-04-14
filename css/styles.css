@@ -447,7 +447,7 @@ img {
 
 .footer-socials-link:hover,
 .footer-socials-link:focus {
- background-color: #31d0aa;
+  background-color: #31d0aa;
 }
 
 .header-logo-footer {
@@ -517,10 +517,8 @@ img {
   height: 420.8px;
 }
 
-.portfolio-list-info:hover,
-.portfolio-list-info:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.portfolio-link-info {
+  display: block;
 }
 
 .portfolio-link-info:hover,
