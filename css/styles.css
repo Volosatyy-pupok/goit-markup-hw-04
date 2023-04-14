@@ -209,7 +209,7 @@ img {
   color: var(--section-bcl);
 }
 
-.feature-div-icon {
+.feature-div-container {
   display: flex;
   justify-content: center;
   align-items: center;
