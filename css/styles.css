@@ -413,6 +413,12 @@ img {
   max-width: 264px;
 }
 
+.footer-div {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 .header-logo-footer {
   display: inline-block;
   margin-bottom: 16px;
