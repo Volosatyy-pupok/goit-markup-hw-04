@@ -13,7 +13,8 @@
   --p-row-title-p-cl: #434455;
   --btn-main-bcl: #4d5ae5;
   --cl-btn-portfolio: #e7e9fc;
-  --icons-cl: #404bbf;
+  --icons-cl: #afb1b8;
+  --icons-hover-cl: #404bbf;
 }
 .visually-hidden {
   position: absolute;
@@ -149,7 +150,11 @@ img {
 .main {
   background-color: var(--section-bcl);
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -345,17 +350,21 @@ img {
   fill: currentColor;
 }
 
+.section-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .section-five-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -376,17 +385,17 @@ img {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  color: var(--icons-cl);
 }
 
 .customers-link:hover,
 .customers-link:focus {
   border-color: #404bbf;
-  fill: var(--icons-cl);
+  color: var(--icons-hover-cl);
 }
 
-.customers-icon:hover,
-.customers-icon:focus {
-  fill: var(--icons-cl);
+.customers-icon {
+  fill: currentColor;
 }
 
 /* Footer */
