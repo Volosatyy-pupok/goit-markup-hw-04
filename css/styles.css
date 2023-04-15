@@ -391,14 +391,18 @@ img {
   color: var(--icons-cl);
 }
 
+.customers-icon {
+  fill: currentColor;
+}
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+  fill: #404bbf;
+}
+
 .customers-link:hover,
 .customers-link:focus {
   border-color: #404bbf;
-  color: var(--icons-hover-cl);
-}
-
-.customers-icon {
-  fill: currentColor;
+  color: #404bbf;
 }
 
 /* Footer */
