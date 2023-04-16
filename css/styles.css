@@ -124,6 +124,8 @@ img {
 }
 
 .address {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-style: normal;
   margin-left: 320px;
 }
@@ -236,6 +238,7 @@ img {
 }
 
 .feature-p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -377,7 +380,6 @@ img {
   align-items: center;
   padding: 0px;
   gap: 24px;
-  margin-bottom: 120px;
 }
 
 .customers-link {
@@ -413,6 +415,7 @@ img {
   margin: 0 auto;
 }
 .footer-p {
+  font-weight: 400;
   color: #f4f4fd;
   max-width: 264px;
 }
@@ -420,7 +423,6 @@ img {
 .footer-div {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .footer-socials-title {
@@ -437,6 +439,9 @@ img {
   gap: 16px;
 }
 
+.footer-socials-container {
+  margin-left: 120px;
+}
 .footer-socials-link {
   width: 100%;
   height: 100%;
@@ -454,7 +459,7 @@ img {
   background-color: #31d0aa;
 }
 
-.header-logo-footer {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
@@ -464,10 +469,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-cl);
-  margin-right: 76px;
 }
-
-.header-logo-span-two {
+.footer-logo-span-two {
   color: #f4f4fd;
 }
 
